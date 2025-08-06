@@ -44,8 +44,17 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run lint`            | Lint source files with ESLint                    |
+| `npm run typecheck`       | Run TypeScript for static type checking          |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 🧹 Calidad de código
+
+El proyecto incluye ESLint y TypeScript para mantener la calidad del código.
+
+- `npm run lint`: ejecuta ESLint para analizar el código.
+- `npm run typecheck`: usa TypeScript para detectar errores de tipo.
 
 ## 👀 Want to learn more?
 
